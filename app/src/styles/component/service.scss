@@ -1,0 +1,66 @@
+.service{
+    margin-top: 5%;
+    & h1,h2,h3,h4,h5,h6,p,a,ul,li,span, i{
+        color:#fff;
+    }
+    &_svg_dev{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-top: 4%;
+    }
+    &_list{
+        width: 370px;
+        height: 280px;
+        border: 1px inset white;
+        margin: 10px;
+        padding: 30px;
+        border-radius:15px;
+        display: flex;
+        align-items:center;
+        justify-content: flex-start;
+        flex-direction: column;
+        text-align: center;
+    }
+    &_icon{
+        font-size: 50px;
+    }
+    &_icon_1{
+        &::after{
+            content:"\f518";
+        }
+    }
+    &_icon_2{
+        &::after{
+            content:"\f51b";
+        }
+    }
+    &_icon_3{
+        &::after{
+            content:"\f10b";
+        }
+    }
+    &_icon_4{
+        &::after{
+            content:"\f140";
+        }
+    }
+    &_icon_5{
+        &::after{
+            content:"\f05a";
+        }
+    }
+    &_icon_6{
+        &::after{
+            content:"\f518";
+        }
+    }
+    &_item{
+        margin-top: 10px;
+    }
+    &_link{
+        margin-top: 10px;
+    }
+}

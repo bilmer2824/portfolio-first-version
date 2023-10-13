@@ -1,0 +1,38 @@
+.nav{
+  background: #232323;
+  position: fixed;
+  width: 100%;
+  z-index: +15;
+  &_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &_logo{
+    padding: 10px 5px;
+  }
+  &_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  &_list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &_item{
+    padding: 10px 30px;
+    &.active{
+      & a{
+        color:red;
+      }
+    }
+  }
+  &_link{
+    font-weight:400;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.3s;
+  }
+}

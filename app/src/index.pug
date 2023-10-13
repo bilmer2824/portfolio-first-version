@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./styles/main.min.css")
+        link(rel="stylesheet", href="https://pro.fontawesome.com/releases/v5.15.2/css/all.css")
+        title gulp
+    body
+        .home_icon 
+            i.fas
+        header.header 
+            include ./views/layout/nav.pug
+            include ./views/component/section.pug
+            include ./views/component/mybio.pug
+            include ./views/component/myscill.pug
+            include ./views/component/service.pug
+            //- include ./views/component/work.pug
+            include ./views/component/jungle.pug
+            
+
+        .ffff   
+        script(src="./script/common.min.js") 
